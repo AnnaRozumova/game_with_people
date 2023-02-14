@@ -10,7 +10,7 @@ https://realpython.com/python-git-github-intro/
 
 5) change some file little bit (even just commentary)
 6) stage the change in git in vscode
-7) and commit it and synchronize (or push) in vscode to that github
+7) and commit it and synchronize (or push) in vscode to that github this I can not do.. some denied permission error
 ================================================
 
 6) study little bit basic usage of pipenv
