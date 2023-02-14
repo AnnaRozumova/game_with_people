@@ -5,7 +5,7 @@ https://realpython.com/python-git-github-intro/
 
 2) make an account on github  - Done
 3) initialize in this project usage as git repository 
-4) connect this repository to github account 
+4) connect this repository to github account I guess done
 ------------------------------------------------
 
 5) change some file little bit (even just commentary)
