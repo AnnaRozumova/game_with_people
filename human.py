@@ -1,10 +1,16 @@
 '''
 Task:
-1) make test of 1 method from class Human
+1) make test of 1 method from class Human..there is example of the code from src/some_module.py in test/test_some_module.py
+=> on the left panel there is icon of glass for chemistry testing, there are tests also visible
+=> in terminal it can be run for example just with command pytest because pytest is installed in python pipenv virtual environment
 => read how to make test, especially pytest for a class method
 => also there is some convention structure of the project folders => code in python files is 
 in folder src and tests in folder test or tests
 => there is possible to use file conftest
+
+2) make new module employee.py, where will be class Employee, which will be inherited from class Human
+and there will be one yet empty specified method for class Employee (the other are the same as in Human class
+and doesn't need to be specified, if they don't change..they are inherited from Human..you can try to test some..)
 '''
 
 class Human():
