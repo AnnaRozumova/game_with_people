@@ -3,14 +3,14 @@ Task:
 1) study little bit basic usage of git
 https://realpython.com/python-git-github-intro/
 
-2) make an account on github  - Done
+2) make an account on github 
 3) initialize in this project usage as git repository 
-4) connect this repository to github account I guess done
+4) connect this repository to github account 
 ------------------------------------------------
 
 5) change some file little bit (even just commentary)
 6) stage the change in git in vscode
-7) and commit it and synchronize (or push) in vscode to that github this I can not do.. some denied permission error
+7) and commit it and synchronize (or push) in vscode to that github 
 ================================================
 
 6) study little bit basic usage of pipenv
