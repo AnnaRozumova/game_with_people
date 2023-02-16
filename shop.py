@@ -1,24 +1,7 @@
 '''
 Task:
-1) study little bit basic usage of git
-https://realpython.com/python-git-github-intro/
-
-2) make an account on github  - Done
-3) initialize in this project usage as git repository 
-4) connect this repository to github account 
-------------------------------------------------
-
-5) change some file little bit (even just commentary)
-6) stage the change in git in vscode
-7) and commit it and synchronize (or push) in vscode to that github
-================================================
-
-6) study little bit basic usage of pipenv
-7) install pipenv from linux terminal eventhough it is installed (in some case it will just write that it is already installed)
-
-8) create virtual environment for this play_with_people project
-9) use this virtual environment in this project
-10) there should be now Pipfile and Pipfile.lock (?)
+1) There is pytest possible to use, it was installed with pipenv to this virtual environment
+=> make test of 1 method from class Shop
 
 Ondra's note for future (unit test,pytest,pylint install to virt.env, pyside2 (button to add customer and shop), 
 write to file json? or csv,read it..filesystem work
@@ -31,7 +14,7 @@ class Shop():
     def __init__(self, name: str, assortment: dict):
         self.name = name
         self.assortment = assortment
-  
+
     def buy_product(self, product, amount_to_buy, customer):
         try:
             if amount_to_buy <= self.assortment[product]['amount']:
