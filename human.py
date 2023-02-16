@@ -1,16 +1,10 @@
 '''
 Task:
-- this module play_with_people we will need later, so please keep it, just rename it to human.py
-- create another module, which will contain class Shop(),
- which will have variables:
- => 1.string name of the shop
- => 2.dictionary will contain 3 items and their price and number of the pieces in the shop
- - the name of the shop and the dictionary will come as input when creating instance of the class Shop()
- dictionaries example:
- products = {rohlik: {cena: 3, kusu: 100}, chleba:  {cena: 25, kusu: 100}, ryze:  {cena: 30, kusu: 100}}
- - there will be method where you can buy something from the shop (so input will be name of product and number of wanted pieces)
- => and in that case it will reduce the products number available in the shop and also return the price for that specific buying
- (and later for next task => when there will not be enough products, it will return "Sorry, we don't have enough")
+1) make test of 1 method from class Human
+=> read how to make test, especially pytest for a class method
+=> also there is some convention structure of the project folders => code in python files is 
+in folder src and tests in folder test or tests
+=> there is possible to use file conftest
 '''
 
 class Human():
