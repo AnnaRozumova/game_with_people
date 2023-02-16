@@ -1,4 +1,5 @@
 # new file with nothing
+
 class Human():
-    __init__(self):
+    __init__(self):   
         pass
