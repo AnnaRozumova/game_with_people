@@ -7,7 +7,7 @@ Ondra's note for future (unit test,pytest,pylint install to virt.env, pyside2 (b
 write to file json? or csv,read it..filesystem work
 with pipenv, maybe boto3 and dynamodb and s3..maybe docker and bashscripts and terminal,fastapi)
 '''
-from human import Human
+from .human import Human
 
 
 class Shop():
@@ -42,5 +42,5 @@ if __name__ == "__main__":
     print(answer_to_customer)
     what_we_have = shop1.show_assortment(customer_2)
     print(what_we_have)
-    answer_to_customer = shop1.buy_product('rohlik1', 10, customer_2)
+    answer_to_customer = shop1.buy_product('rohlik', 10, customer_2)
     print(answer_to_customer)
