@@ -11,6 +11,7 @@ in folder src and tests in folder test or tests
 2) make new module employee.py, where will be class Employee, which will be inherited from class Human
 and there will be one yet empty specified method for class Employee (the other are the same as in Human class
 and doesn't need to be specified, if they don't change..they are inherited from Human..you can try to test some..)
+test change
 '''
 
 class Human():
